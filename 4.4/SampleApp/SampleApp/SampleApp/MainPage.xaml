@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="true"
+             mc:Ignorable="d"
+             x:Class="SampleApp.MainPage">
+
+    <StackLayout>
+        <Button x:Name="PayBtn" Clicked="PayBtn_Clicked" Text="Pay"></Button>
+        <Editor x:Name="PayReslutEditor" HeightRequest="300" Placeholder="Pay Result"></Editor>
+    </StackLayout>
+
+</ContentPage>
