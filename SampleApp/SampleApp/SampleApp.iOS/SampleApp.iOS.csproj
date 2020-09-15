@@ -122,10 +122,6 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="DemoUtilsBinding, Version=1.0.7331.12837, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\DemoUtilsBinding.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -134,10 +130,10 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
-    <PackageReference Include="XamarinLibrary.Xamarin.iOS.AlipaySDK">
-      <Version>15.6.8-rc1</Version>
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="XamarinLibrary.Xamarin.iOS.Alipay.Utils">
+      <Version>15.7.9.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -146,8 +142,5 @@
       <Project>{1C2B1550-CF5A-4A7E-ADA8-D451CF5A5BCE}</Project>
       <Name>SampleApp</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="DLLs\DemoUtilsBinding.dll" />
   </ItemGroup>
 </Project>
