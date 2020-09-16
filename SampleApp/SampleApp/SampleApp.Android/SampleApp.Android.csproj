@@ -43,9 +43,6 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AlipaySDKBinding">
-      <HintPath>D:\TempApps\AliPaySDKBindingWork\AlipaySDKBinding\AlipaySDKBinding\bin\Debug\AlipaySDKBinding.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +55,9 @@
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="XamarinLibrary.Xamarin.Android.Alipay.Utils">
+      <Version>15.7.9</Version>
+    </PackageReference>
+    <PackageReference Include="XamarinLibrary.Xamarin.Android.AlipaySDK">
       <Version>15.7.9</Version>
     </PackageReference>
   </ItemGroup>
