@@ -3,6 +3,8 @@ Sample for showing Alipay SDK on xamarin.forms
 
 Tutorial:
 
+https://mp.weixin.qq.com/s/XXcelt5hqoo6evhwqpWAtQ
+
 https://mp.weixin.qq.com/s/WYXW0Fs-vqM4Hh434E7SFA
 
 QQ Group:
